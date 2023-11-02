@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW"><!--宣告語系-->
+
+<head>
+    <meta charset="UTF-8"><!--萬國編碼-->
+    <meta name="description" content="Free Web tutorials"><!--描述-->
+    <meta name="keywords" content="HTML, CSS, JavaScript"><!--關鍵字-->
+    <meta name="author" content="Sunny, lovelychining@gmail.com"><!--作者-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2, minimum-scale=0.5">
+    <!--跨裝置檢視-->
+    <title>這是網頁練習1031-Z版面排版</title><!--頁籤文字-->
+    <style>
+        /* 整體宣告 */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "微軟正黑體", Helvetica, sans-serif
+        }
+
+        /* 結構設定 */
+        .header {
+            text-align: center;
+            padding: 5px;
+        }
+
+        .container {
+            padding: 60px;
+        }
+
+        .row {
+            height: 460px;
+            position: relative;
+        }
+
+        .column-66 {
+            float: left;
+            width: 66%;
+            padding: 20px;
+        }
+
+        .column-33 {
+            float: left;
+            width: 33%;
+            padding: 20px;
+        }
+
+        /* 內部元件調整 */
+        h1{
+            margin: 15px;
+            font-size: 64px;
+        }
+        b{
+            font-size: 48px;
+            margin: 0;
+            color: mediumseagreen;
+        }
+        button{
+            border: none;
+            color:white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            background: mediumseagreen;
+            border-radius: 15px;
+            position: absolute;
+            bottom: 20px;
+        }
+        img{
+            height: 400px;
+            width: 100%;
+            object-fit:cover;
+        }
+
+        /* 自訂樣式 */
+        .red_p{
+            color: red;
+        }
+        .red_bg{
+            background-color: red;
+        }
+        .bg_beige{
+            background-color:beige;
+        }
+        .xlarge-text{
+            font-size: 36px;
+        }
+        .large-text{
+            font-size: 24px;
+        }
+        .small-text{
+            font-size: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Header區塊 -->
+    <div class="header bg_beige">
+        <h1>Z字形版面範例</h1>
+        <p>幼手跳是不中豆黑話哥黃房面，氣十要象功王得念石兔候苗帶。</p>
+    </div>
+
+    <!-- 區塊 1 -->
+    <div class="container">
+        <div class="row">
+            <div class="column-66 ">
+                <h1>The App</h1>
+                <b>Why buy it?</b>
+                <p><span class="xlarge-text">片喜條門羊青子</span>
+                    各個快植兌故開直借來合黑彩里直錯草有每、尺辛牙且造民。尾好爪開固夏完玉夕像勿勿夏已耍要。房鳥公後孝珠大。幼手跳是不中豆黑話哥黃房面，丟祖做幾空意步步雨春：外男植幼細棵孝兔海氣十要象功王得念石兔候苗帶。
+                </p>
+                <button>下載APP</button>
+            </div>
+            <div class="column-33">
+                <img src="https://cdn.pixabay.com/photo/2022/04/12/04/57/couple-7127168__480.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- 區塊 2 -->
+    <div class="container bg_beige">
+        <div class="row">
+            <div class="column-66">
+                <img src="https://cdn.pixabay.com/photo/2022/07/09/19/10/bird-7311599__480.jpg" alt="">
+            </div>
+            <div class="column-33">
+                <h1>Clarity</h1>
+                <b class="red_p">Pixels, who?</b>
+                <p class="large-text">也雲丁升！呢位良抄快隻流下得快坡又入蝸室七天耳跟，七寸法定果虎春了頭朱布樹西英以。</p>
+                <button class="red_bg">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 區塊 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="column-33">
+                <img src="https://cdn.pixabay.com/photo/2022/04/12/04/57/couple-7127168__480.jpg" alt="">
+            </div>
+            <div class="column-66">
+                <h1>The App</h1>
+                <b>Why buy it?</b>
+                <p><span class="xlarge-text">片喜條門羊青子</span>
+                    各個快植兌故開直借來合黑彩里直錯草有每、尺辛牙且造民。尾好爪開固夏完玉夕像勿勿夏已耍要。房鳥公後孝珠大。幼手跳是不中豆黑話哥黃房面，丟祖做幾空意步步雨春：外男植幼細棵孝兔海氣十要象功王得念石兔候苗帶。
+                </p>
+                <button>下載APP</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

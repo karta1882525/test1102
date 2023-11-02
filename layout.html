@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-TW"><!--宣告語系-->
+
+<head>
+    <meta charset="UTF-8"><!--萬國編碼-->
+    <meta name="description" content="Free Web tutorials"><!--描述-->
+    <meta name="keywords" content="HTML, CSS, JavaScript"><!--關鍵字-->
+    <meta name="author" content="Sunny, lovelychining@gmail.com"><!--作者-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2, minimum-scale=0.5">
+    <!--跨裝置檢視-->
+    <title>這是網頁練習1031-版面排版</title><!--頁籤文字-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 16px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background: #838383;
+            padding: 30px;
+            font-size: 2.1875em;
+            color: white;
+            text-align: center; 
+        }
+
+        nav {
+            font-size: 14px;
+            background: #414141;
+            float: left;
+            width: 30%;
+            height: 70vh;
+            padding: 20px;
+            color: white;            
+        }
+        nav ul{
+            list-style-type: none;
+            font-size: 1.125rem;
+        }
+        nav ul li{
+            margin-bottom: 10px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        article {
+            background: #c4c1c1;
+            float: right;
+            width: 70%;
+            padding: 20px;
+            height: 70vh;
+        }
+
+        article h1{
+            font-size: 2em;
+        }
+        article p{
+            font-size: .875em;
+        }
+        footer {
+            background: #414141;
+            clear: both;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h2>頁面標題文字</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Menu1</a></li>
+            <li><a href="#">Menu2</a></li>
+            <li><a href="#">Menu3</a></li>
+            <li><a href="#">Menu4</a></li>
+            <li><a href="#">Menu5</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h1>Lorem.</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sint repudiandae. Sapiente temporibus
+            soluta ipsa laboriosam quo error officia ab accusantium? Asperiores, quae debitis architecto suscipit
+            praesentium quasi pariatur? Laudantium!</p>
+    </article>
+    <footer>頁尾文字</footer>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-TW"><!--宣告語系-->
+
+<head>
+    <meta charset="UTF-8"><!--萬國編碼-->
+    <meta name="description" content="Free Web tutorials"><!--描述-->
+    <meta name="keywords" content="HTML, CSS, JavaScript"><!--關鍵字-->
+    <meta name="author" content="Sunny, lovelychining@gmail.com"><!--作者-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2, minimum-scale=0.5">
+    <!--跨裝置檢視-->
+    <title>這是網頁練習1030-樣式-行內&開頭</title><!--頁籤文字-->
+    <link rel="stylesheet" href="css/style1.css">
+    <style>
+        body{
+            color: black;
+        }
+
+        p{
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        /* CSS有繼承屬性 */
+        h1, h2{
+            color:blueviolet;
+        }
+        .blue_p{
+            color: blue;
+        }
+        .red_p{
+            color: #ff0;
+            font-size: 20px;
+            line-height: 40px;
+            background:grey;
+        }
+        
+        #testh1{
+            color: black;
+        }
+        #main_text{
+            background:#f3f393;
+            border:solid grey 5px ;
+        }
+        #test > p{
+            font-weight: 800;
+            font-style: italic;
+            color: #f00;
+        }
+        div{
+            color: pink;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1 style="color:#f00;font-style: italic;" class="red_p">我是<span>標題文字</span></h1>
+    <p id="main_text">買六吉高采喜飽又想而休道波麻外荷：<br>愛綠道中怪升記品，棵更收穴吹古打封只教。花具勿畫錯下白打錯的母！氣語火習弟村您草每黑杯往息怪抱蛋。活光開園入，丁語條福跑員開石馬。</p>
+    <p class="blue_p red_p">彩食住幼行立眼真戊常風澡哥。耍左裏光書綠天着步尤山杯几尼。男借花課英！卜戊申午哭爸開錯京誰飽棵斥那尾二功彩放，就邊車高清。</p>
+    <h2 class="red_p">我是標題二文字</h2>
+    <div>
+        <p id="testh1" class="red_p">羊里院掃吧我有至</p>
+        <div>
+            <p>息樹魚石許假夕</p>
+        </div>
+    </div>
+    <p>羊里院掃吧我有至禾國跳用卜，功完司因寸夕頭童抱不包，息樹魚石許假夕頭入，秋冬兩，何麼發別菜問食飽遠乞幾說怕刃。下回害假美杯躲點澡乙高休晚！躲記雪雨八浪南回。</p>
+    <p>弓北道位走尺一祖字：<span class="red_p">定只<span><span>12</span>34</span>海孝穿京勿聽蝸。明共意四、大買由，旁少友進反旦力娘玉丟語，四現祖假教面豆由早看新沒馬、和吉具田害巴再給朱打新古示像吉許愛幫，禾浪哥里各。</p>
+    <ol>
+        <li>項目清單1</li>
+        <li>項目清單2</li>
+        <li>項目清單3</li>
+        <li>項目清單4</li>
+        <li>項目清單5</li>
+        <li>項目清單6</li>
+        <li>項目清單7</li>
+        <li>項目清單8
+            <ul>
+                <li>項目清單8-1</li>
+                <li>項目清單8-2</li>
+                <li>項目清單8-3</li>
+                <li>項目清單8-4</li>
+                <li>項目清單8-5</li>
+            </ul>
+        </li>
+    </ol>
+    <h1>我是標題一</h1>
+    <p>我是文字</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <table border="1" width="500px" cellspacing="0" cellpadding="5">
+        <caption>112學期第一學期成績</caption>
+        <tr>
+            <td width="100px"></td>
+            <th width="200px">國文</th>
+            <th width="200px">英文</th>
+        </tr>
+        <tr>
+            <th>王大明</th>
+            <td>100</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <th>陳阿貓</th>
+            <td>90</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <th>備註</th>
+            <td colspan="2">XXX</td>
+        </tr>
+        <tr>
+            <th rowspan="2">說明</th>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+</body>
+
+</html>
